@@ -1,0 +1,163 @@
+.w-60 {
+  width: 60%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-65 {
+  width: 65%;
+}
+
+.w-45 {
+  width: 45%;
+}
+
+a.un-style-link:link {
+  color: currentColor;
+  cursor: pointer;
+}
+
+/* visited link */
+
+a.un-style-link:visited {
+  color: currentColor;
+  cursor: pointer;
+}
+
+/* mouse over link */
+
+a.un-style-link:hover {
+  color: currentColor;
+  cursor: pointer;
+}
+
+/* selected link */
+
+a.un-style-link:active {
+  color: currentColor;
+  cursor: pointer;
+}
+
+a.un-style-link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.bg-bdo-pale-charcoal {
+  background-color: #e7e7e7;
+}
+
+.bg-bdo-charcoal {
+  background-color: #333333 !important;
+}
+
+.bg-bdo-slate {
+  background-color: #657c91 !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.text-bdo-burgundy {
+  color: #98002e !important;
+}
+
+.text-bdo-charcoal {
+  color: #333333 !important;
+}
+
+.text-bdo-emerald {
+  color: #218f8b !important;
+}
+
+.text-bdo-ocean {
+  color: #02a5e2 !important;
+}
+
+.animated.fade-in {
+  animation: fade-in 0.3s ease-in-out;
+}
+
+.animated.fade-in-grow {
+  animation: fade-in-grow 1s ease-in-out;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+@keyframes fade-in-grow {
+  0% {
+    opacity: 0;
+    width: 50%;
+  }
+  100% {
+    opacity: 100;
+    width: 75%;
+  }
+}
+
+.animated.slide-in {
+  position: relative;
+  animation: slide-in 2s cubic-bezier(0.99, 0.01, 0.73, 0.95);
+}
+
+.animated.slide-down {
+  position: relative;
+  animation: slide-down 0.8s ease-out;
+}
+
+.animated.slide-down-2 {
+  z-index: -1;
+  position: relative;
+  animation: slide-down-2 0.8s ease-out;
+}
+
+@keyframes slide-down {
+  0% {
+    top: -20rem;
+    width: 0rem;
+    background-color: #98002e;
+  }
+  40% {
+    background-color: #98002e;
+  }
+  60% {
+    width: 1rem;
+  }
+  100% {
+    top: -5rem;
+    width: 2.5rem;
+    background-color: #ed1a3b;
+  }
+}
+
+@keyframes slide-down-2 {
+  0% {
+    top: -3rem;
+    width: 14rem;
+  }
+  100% {
+    top: 0;
+    width: 19rem;
+  }
+}
+
+.locator {
+  margin-left: 6.5rem;
+  z-index: -1;
+  position: relative;
+  top: -5rem;
+  height: 10rem;
+  width: 2.5rem;
+  background-color: #ed1a3b;
+  transform: skewY(-30deg);
+}

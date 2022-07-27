@@ -1,0 +1,15 @@
+<nav
+  class="d-flex justify-content-between align-items-center bg-bdo-charcoal px-3"
+>
+  <img routerLink="/home" class="cursor-pointer" src="assets/branding/logo.png" width="110rem" />
+  <div class="d-flex align-items-center">
+    <a
+      *ngFor="let navItem of navItems"
+      [routerLink]="navItem.url"
+      routerLinkActive="nav-item-active"
+      class="p-2 mx-2 un-style-link text-light fs-6"
+    >
+      {{ navItem.title }}
+    </a>
+  </div>
+</nav>

@@ -1,0 +1,5 @@
+.nav-item-active{
+    color: #98002e !important;
+    font-weight: bold;
+    text-decoration: underline;
+}
